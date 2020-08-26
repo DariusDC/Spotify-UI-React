@@ -1,3 +1,3 @@
-- to do later
+To do later
 
-* Need to add playing functionality
+- Need to add playing functionality
