@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.avatar-side {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 2rem !important;
+  height: 2rem !important;
+}
+
+.avatar-side p {
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  background-color: #fafafa;
+  color: grey;
+  padding: 5px 10px;
+  border-radius: 100px;
+}
+
+.search input {
+  border: none;
+  outline: none;
+  margin-left: 5px;
+  background-color: #fafafa;
+}

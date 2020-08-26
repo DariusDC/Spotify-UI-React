@@ -1,0 +1,30 @@
+.sidebar {
+  border: 1px solid black;
+  flex: 0.2;
+  min-width: 170px;
+  background-color: #040404;
+  color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar img {
+  object-fit: contain;
+  height: 30px;
+  margin-right: auto;
+}
+
+.options {
+  margin: 10px 0;
+}
+
+.playlists-title {
+  font-size: 0.7rem;
+}
+
+hr {
+  width: 90%;
+  margin: 7px 0;
+  border: 1px solid #282828;
+}

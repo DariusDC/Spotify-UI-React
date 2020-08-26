@@ -1,0 +1,66 @@
+.footer {
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  height: 100px;
+  background-color: #282828;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-left {
+  flex: 0.3;
+  display: flex;
+  align-items: center;
+  width: 500px;
+}
+
+.footer-left h4 {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.footer-left p {
+  font-size: 10px;
+  color: grey;
+}
+
+.footer-left img {
+  height: 60px;
+  width: 60px;
+  margin-right: 20px;
+  /* object-fit: contain; */
+}
+
+.footer-center {
+  flex: 0.4;
+  padding: 0 10px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 150px;
+}
+
+.footer-green {
+  color: #1ab26b;
+}
+
+.footer-green:hover,
+.footer-icon:hover {
+  transform: scale(1.2) !important;
+  transition: transform 0.2s ease-in-out;
+}
+
+.footer-right {
+  flex: 0.3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-right * .MuiSlider-root {
+  color: #1ab26b;
+}

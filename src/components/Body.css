@@ -1,0 +1,64 @@
+.body {
+  background: linear-gradient(rgb(66, 72, 96), rgba(0, 0, 0, 1));
+  flex: 0.8;
+  color: #fff;
+  padding: 20px;
+  overflow-y: overlay;
+}
+
+.body::-webkit-scrollbar {
+  display: none;
+}
+
+.info {
+  margin: 20px 10px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.info > img {
+  width: 15vw;
+  object-fit: contain;
+  box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
+}
+
+.info-text {
+  padding: 20px;
+  flex: 1;
+}
+
+.info-text strong {
+  font-size: 0.7rem;
+  color: grey;
+}
+
+.info h2 {
+  font-size: 3rem;
+}
+
+.info p {
+  font-size: 15px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+}
+
+.icons > .MuiSvgIcon-root {
+  margin-right: 20px;
+}
+
+.icons .shuffle {
+  font-size: 60px !important;
+  margin: 20px 0 20px 50px;
+}
+
+.icons .shuffle:hover {
+  transition: transform 100ms ease-in-out;
+  transform: scale(1.08);
+}
+
+.songs {
+  margin: 20px -30px;
+}

@@ -1,0 +1,26 @@
+.login {
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100vh;
+}
+
+.login img {
+  object-fit: contain;
+  width: 90%;
+  max-width: 500px;
+}
+
+.login a {
+  color: #fff;
+  background-color: #1ab26b;
+  border: none;
+  font-size: 1.3rem;
+  padding: 15px 70px;
+  border-radius: 100px;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+}
